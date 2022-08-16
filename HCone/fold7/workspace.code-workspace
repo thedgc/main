@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../python_stuff/siteone/mysite"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,45 @@
+.sect_one{
+    height: 100px;
+    width: 90%;
+    background-color: black;
+    margin: auto;
+}
+.sect_one:hover{
+    background-color: grey;
+}
+.show_one{
+    height: 20px;
+    width: 30px;
+    background-color: red;
+    float: left;
+}
+.show_one:hover{
+    background-color: pink;
+}
+.show_two{
+    height: 20px;
+    width: 30px;
+    background-color: blue;
+    float: left;
+}
+.show_two:hover{
+    background-color: rgb(117, 153, 252);
+}
+.show_three{
+    height: 20px;
+    width: 30px;
+    background-color: green;
+    float: right;
+}
+.show_three:hover{
+    background-color: lightgreen;
+}
+.show_four{
+    height: 20px;
+    width: 30px;
+    background-color: purple;
+    float: right;
+}
+.show_four:hover{
+    background-color: pink;
+}

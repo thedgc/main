@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The light bulb</title>
+    <link rel="stylesheet" type="text/css" href="bulb.css">
+</head>
+<body>
+    <div class="top">
+        <navbar>
+            <brand>FUn In TIme</brand>
+            <ul>
+                <li><a href="index.html">ONE</a></li>
+                <li><a href="page2.html">Two</a></li>
+                <li><a href="page3.html">THR3</a></li>
+                <li><a href="page4.html">4our</a></li>
+                <li><a href="page5.html">5ive</a></li>
+            </ul>
+        </navbar>
+    </div>
+    <div class="content">
+        <div class="bulb12">
+            <span><img id="bulb1"></span>
+            <button class="onoff1" id="onoff" onclick="bulbs();">ON/OFF</button>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    <style>
+        img {
+            height: 300px;
+            width: 175px;
+            
+        }
+        
+        button:hover{
+            background-color: lightblue;
+        }
+        
+        
+        
+        
+    </style>
+    <script type="text/javascript">
+        
+        
+        var image = document.getElementById('bulb1');
+        var image_v = 'off';
+        var buton = document.getElementsByClassName('onoff1');
+        image.src = 'offb.png';
+        image_v;
+        function bulbs(){
+            if(image_v=='off'){
+                image.src = 'onb.png';
+                image_v = 'on';
+            } else {
+                image.src = 'offb.png';
+                image_v = 'off';
+            }
+        }
+        
+        
+      
+    </script>
+    
+
+</body>
+</html>

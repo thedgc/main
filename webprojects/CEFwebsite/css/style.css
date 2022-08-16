@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 4em;
+    position: fixed top;
+    background-color: aqua;
+}
+
+nav img{
+    width: 15em;
+    height: 11em;
+    border-radius: 1em;
+}
+
+ul{
+    margin-top: 1.5em;
+    margin-right: 1em;
+    float: right
+}
+
+ul li{
+    display: inline;
+    padding: 1px;
+    margin: 1px;
+}
+.selec{
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+   
+}
+.selec.active {
+    background-color: white;
+    border: outset 1px;
+}
+.selec:hover{
+    background-color: black;
+    color: white;
+    transition: ease 700ms;
+}
+
+.home{
+    padding-top: 10em;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: turquoise;
+}
+.headhome{
+    text-align: center;
+    font-size: 5em;
+}
+.itemshome{
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+.homecon{
+    display: inline-flex;
+    height: 50%;
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+}
+.services{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(97, 14, 176);
+}
+.resources{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(223, 226, 43);
+}
+.about{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(21, 171, 126);
+}
+.footer{
+    width: 100%;
+    height: 7vh;
+    bottom: 0;
+    position: fixed;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+

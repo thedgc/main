@@ -1,0 +1,110 @@
+*, 
+::before, 
+::after{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* header */
+.header{
+    height: 50vh;
+    width: 100%;
+    padding-top: 3rem;
+    background-color: black;
+    color: #fff;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    padding-left: 50rem;
+}
+
+.nav__list{
+    list-style-type: none;
+}
+
+.nav__item{
+padding: 6px;
+display: inline;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.mainphoto{
+    display: flex;
+    float: right;
+    width: 10rem;
+    height: 16rem;
+    background-color: azure;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+.header__title{
+    font-size: 3rem;
+    background-color: aqua;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    color: black;
+}
+
+.header__subtitle{
+    font-size: 1rem;
+    margin-top: .5rem;
+    padding-left: 1rem;
+}
+
+/* about */
+.about{
+    height: 90vh;
+    background-color: rgb(149, 149, 231);
+    padding-top: 2.5rem;
+    text-align: center;
+}
+/* contact */
+.contact{
+    height: 80vh;
+    background-color: azure;
+    width: 100%;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+.contact__title{
+    padding-top: 2.5rem;
+}
+form{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+form input{
+    width: 100%;
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+}
+.footer__list{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding-left: 25rem;
+}
+.footer__item{
+    padding: 6px;
+}
